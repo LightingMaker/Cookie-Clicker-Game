@@ -1,0 +1,100 @@
+body {
+    background: #f5e9da;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.cookie-img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.1s;
+}
+#.cookie-img.pop {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #a67c52;
+}
+.stats {
+    margin-top: 16px;
+    font-size: 1.2rem;
+    color: #a67c52;
+}
+.achievements {
+    margin-top: 24px;
+    background: #f7e4c2;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(166,124,82,0.08);
+}
+.achievements h2 {
+    margin-bottom: 10px;
+    color: #a67c52;
+}
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.achievements li {
+    color: #8c6239;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#cookie-btn:active .cookie-img {
+    transform: scale(0.95);
+}
+.score {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #a67c52;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.store {
+    margin-top: 30px;
+    background: #f7e4c2;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(166,124,82,0.08);
+}
+.store h2 {
+    margin-bottom: 16px;
+    color: #a67c52;
+}
+.upgrade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.upgrade span {
+    font-weight: bold;
+    color: #a67c52;
+}
+.upgrade button {
+    background: #a67c52;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 16px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.upgrade button:hover {
+    background: #8c6239;
+}
+}

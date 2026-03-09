@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Clicker</h1>
+        <div class="score" id="score">Cookies: 0</div>
+        <button id="cookie-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Chocolate_Chip_Cookie.png" alt="Cookie" class="cookie-img">
+        </button>
+        <div class="stats">
+            <div id="cps">Cookies per second: 0</div>
+        </div>
+        <div class="achievements" id="achievements">
+            <h2>Achievements</h2>
+            <ul id="ach-list"></ul>
+        </div>
+        <div class="store">
+            <h2>Store</h2>
+            <div class="upgrade" id="auto-clicker">
+                <span>Auto-Clicker</span>
+                <button id="buy-auto">Buy (Cost: <span id="auto-cost">50</span>)</button>
+            </div>
+            <div class="upgrade" id="multiplier">
+                <span>Multiplier</span>
+                <button id="buy-mult">Buy (Cost: <span id="mult-cost">100</span>)</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
